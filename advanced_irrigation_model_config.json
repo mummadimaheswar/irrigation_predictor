@@ -1,0 +1,17 @@
+{
+  "sequence_length": 48,
+  "model_type": "bidirectional_lstm",
+  "feature_columns": [
+    "soil_moisture",
+    "temperature",
+    "humidity"
+  ],
+  "n_features": 3,
+  "batch_size": 64,
+  "created_at": "2025-08-04T16:54:44.662587",
+  "tensorflow_version": "2.18.0",
+  "model_summary": {
+    "total_params": 326529,
+    "trainable_params": 325697
+  }
+}
